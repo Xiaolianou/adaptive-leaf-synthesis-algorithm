@@ -64,11 +64,11 @@ ALSA 当前支持两类基本叶片图元。
 * 边缘较平滑的宽叶形态。
 
 <p align="center">
-  <img src="docs/fig_leaf_primitives.png" width="750">
+<img src="1.png" width="750">
 </p>
 
 <p align="center">
-  <b>图 2.</b> ALSA 中使用的参数化叶片图元。
+  <b>Figure 2.</b> Parameterized leaf primitives used in ALSA.
 </p>
 
 ---
@@ -78,23 +78,35 @@ ALSA 当前支持两类基本叶片图元。
 通过调整叶形参数和空间布局参数，ALSA 可以生成不同树种或不同叶片形态特征的三维树木模型。
 
 <p align="center">
-  <img src="docs/fig_species_examples.png" width="850">
+ <img src="2.png" width="850">
 </p>
 
 <p align="center">
-  <b>图 3.</b> 不同叶形参数和空间布局参数下的树木重建效果。
+  <b>Figure 3.</b> Tree reconstruction results under different leaf-shape parameters and spatial layout parameters.
 </p>
+
 
 ALSA 生成的单木模型可进一步用于构建样地尺度或林分尺度的三维森林场景。
 
 <p align="center">
-  <img src="docs/fig_reconstruction_results.png" width="850">
+<img src="3.png" width="850">
 </p>
 
 <p align="center">
-  <b>图 4.</b> 阔叶树和针叶树三维重建结果示例。
+  <b>Figure 4.</b> Three-dimensional reconstruction results of Chinese white poplar and Qinghai spruce after material assignment.
 </p>
 
+<p align="center"> 
+<img src="4.png" width="850">
+</p>
+
+<p align="center">
+<b>图 5.</b> Comparison between the reconstructed complete Qinghai spruce model and the original point cloud.
+
+</p> <p align="center"> <img src="5.png" width="850"> 
+</p> <p align="center">
+<b>图 6.</b> Complete Qinghai spruce plot constructed from the reconstructed models and the corresponding 3D radiative transfer simulation results. 
+</p>
 ---
 
 
