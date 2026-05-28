@@ -1,25 +1,24 @@
 # Adaptive Leaf Synthesis Algorithm (ALSA)
+The Adaptive Leaf Synthesis Algorithm (ALSA) is a parameterized leaf synthesis tool for three-dimensional tree reconstruction. It is designed to generate complete foliage-added individual tree models from trunk–branch OBJ models. The algorithm can be used for three-dimensional forest scene reconstruction, visual representation, and three-dimensional radiative transfer simulation. It takes a reconstructed trunk–branch OBJ mesh model as input and generates parameterized leaf structures for simulation and visualization through branch-structure-constrained extraction of candidate leaf attachment points, user-defined leaf-shape parameters, density regulation, and randomized spatial placement strategies.
 
-Adaptive Leaf Synthesis Algorithm（ALSA，自适应叶片合成算法）是一种面向三维树木重建的参数化叶片合成工具，用于从树干—枝条 OBJ 模型生成添加叶片后的完整三维单木模型。该算法可用于三维森林场景重建、可视化表达以及三维辐射传输模拟。它以重建后的树干—枝条 OBJ 网格模型作为输入，通过枝条结构约束的候选挂叶点提取、用户定义的叶形参数、密度调节和随机化空间放置策略，生成可用于模拟和可视化的参数化叶片结构。
 
-
-## 算法概述
-ALSA 的基本流程包括：
-1. 读取树干—枝条 OBJ 模型；
-2. 解析网格顶点和面片；
-3. 从细枝区域识别候选叶片附着位置；
-4. 通过最小间距约束减少局部叶片过度聚集；
-5. 生成参数化叶片图元；
-6. 基于位置扰动、方位角和倾角控制进行叶片空间放置；
-7. 输出添加叶片后的完整单木 OBJ 模型；
-8. 将木质结构和叶片结构分别保存为独立 OBJ 组。
+## Algorithm Overview
+The basic workflow of ALSA includes:
+Reading the trunk–branch OBJ model;
+Parsing mesh vertices and faces;
+Identifying candidate leaf attachment positions from fine-branch regions;
+Reducing local leaf over-aggregation through a minimum-spacing constraint;
+Generating parameterized leaf primitives;
+Placing leaves in three-dimensional space based on positional perturbation, azimuth, and inclination controls;
+Exporting the complete foliage-added individual tree OBJ model;
+Saving woody structures and leaf structures as separate OBJ groups.
 
 <p align="center">
-  <img src="docs/fig_workflow.png" width="850">
+  <<img src="6.png"> width="850">
 </p>
 
 <p align="center">
-  <b>图 1.</b> Adaptive Leaf Synthesis Algorithm（ALSA）的整体流程。
+  <b>Figure 1.</b> Overall workflow of the Adaptive Leaf Synthesis Algorithm (ALSA).
 </p>
 
 
