@@ -14,7 +14,7 @@ Exporting the complete foliage-added individual tree OBJ model;
 Saving woody structures and leaf structures as separate OBJ groups.
 
 <p align="center">
-  <<img src="6.png"> width="850">
+  <<img src="6.png"> 
 </p>
 
 <p align="center">
