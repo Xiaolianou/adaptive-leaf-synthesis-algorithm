@@ -455,7 +455,7 @@ If you use ALSA in your research, please cite the associated paper or the corres
 @article{Lian2026ALSA,
   title   = {Tree-neighborhood scale structure--radiation coupling analysis and modeling using multi-source remote sensing and ensemble learning},
   author  = {Lian, Guanjun and Zhang, Huaiqing and Liu, Hua and Yang, Tingdong and Qiu, Hanqing and Liu, Yang and others},
-  journal = {To be updated},
+  journal = {International Journal of Applied Earth Observation and Geoinformation},
   year    = {2026}
 }
 ```
