@@ -36,7 +36,7 @@ Saving woody structures and leaf structures as separate OBJ groups.
 
 ## Methodological Principle
 
-ALSA adopts a branch-structure-constrained parametric foliage synthesis strategy. The algorithm takes a trunk–branch OBJ model containing mesh vertices and faces as input. In the associated study, the trunk–branch models were generated using the AdQSM algorithm, but ALSA itself is not limited to AdQSM-derived models. The algorithm has also been tested on trunk–branch models reconstructed using SmartQSM, developed by Yang et al. from the AI&VIS team. As long as the input OBJ file can reasonably represent trunk and branch structures, it can be used as input for ALSA.
+ALSA adopts a branch-structure-constrained parametric foliage synthesis strategy. The algorithm takes a trunk–branch OBJ model containing mesh vertices and faces as input. In the associated study, the trunk–branch models were generated using the AdQSM algorithm, but ALSA itself is not limited to AdQSM-derived models. The algorithm has also been tested on trunk–branch models reconstructed using SmartQSM. As long as the input OBJ file can reasonably represent trunk and branch structures, it can be used as input for ALSA.
 
 The output of ALSA is a complete foliage-added individual-tree OBJ model. The output model contains two clearly separated components:
 
